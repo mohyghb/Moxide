@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/MolarMassButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/fancy_button"
+        android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+        android:drawableStart="@drawable/ic_content_copy_black_24dp"
+        android:elevation="10.0dp"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ListView
+        android:id="@+id/Elements_Found_ListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:divider="@drawable/linear_divider"
+        android:dividerHeight="3.0dp"
+        android:elevation="5.0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MolarMassButton">
+
+
+    </ListView>
+
+
+    <LinearLayout
+        android:id="@+id/EmptyLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MolarMassButton">
+
+        <TextView
+            android:id="@+id/emptyListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:freezesText="false"
+            android:gravity="center"
+            android:text="  No Elements Found"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fancy_button"
+            android:text="About"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

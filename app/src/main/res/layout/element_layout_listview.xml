@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@color/futureBlue"
+        app:cardCornerRadius="40.0dp"
+        app:contentPadding="15.0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:persistentDrawingCache="animation">
+
+
+            <TextView
+                android:id="@+id/name_of_element"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hydrogen"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Symbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="H"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/linear_divider" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <TextView
+                android:id="@+id/AtomicMass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="ssss"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/AtomicNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="1"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/ValenceElectrons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="valence electrons"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/electronegativity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="electronegativity"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/density"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/MeltingPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/BoilingPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/YearDiscovered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/DiscoveredBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Period"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/Block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/State"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="density"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/PercentageComposition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
